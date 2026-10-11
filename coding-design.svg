@@ -1,1 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="650" height="70" viewBox="0 0 650 70">
+  <defs>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="650" height="60"/>
+    </clipPath>
+  </defs>
 
+  <rect width="650" height="70" fill="#0B1020" rx="8"/>
+
+  <g clip-path="url(#clip)"
+     fill="#38BDF8"
+     font-family="monospace"
+     font-size="22"
+     text-anchor="middle">
+
+    <text x="325" y="38">
+      <tspan>B</tspan><tspan>u</tspan><tspan>i</tspan><tspan>l</tspan>
+      <tspan>d</tspan><tspan>i</tspan><tspan>n</tspan><tspan>g</tspan>
+      <tspan> </tspan><tspan>t</tspan><tspan>h</tspan><tspan>i</tspan>
+      <tspan>n</tspan><tspan>g</tspan><tspan>s</tspan>
+      <animateTransform attributeName="transform"
+        type="translate" values="0 0;0 -8;0 0"
+        dur="1.2s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="325" y="38" opacity="0">
+      Creating visuals with every detail
+      <animate attributeName="opacity"
+        values="0;0;1;1;0" keyTimes="0;0.45;0.5;0.9;1"
+        dur="5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform"
+        type="translate" values="0 30;0 30;0 0;0 0;0 -30"
+        dur="5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
